@@ -1,8 +1,10 @@
 package pkgnew;
 
-
+import java.util.Scanner;
 
 public class User {
+    Scanner r = new Scanner(System.in);
+    String e,p,i,u;
     private int IP;//ENDEREÇO DE IP\\
     private String Email;//ENDEREÇO DE EMAIL \\
     private String password;//CRIA A SENHA\\
@@ -20,6 +22,8 @@ public class User {
 
     public void setIP(int IP) {
         this.IP = IP;
+        System.out.println("Digíte um número de indentificação: ");
+        i = r.nextLine();
     }
 
     public String getEmail() {
@@ -28,6 +32,8 @@ public class User {
 
     public void setEmail(String Email) {
         this.Email = Email;
+        System.out.println("Insira seu endereço de Email: ");
+        e = r.nextLine();
     }
 
     public String getPassword() {
@@ -36,6 +42,8 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+        System.out.println("Insira uma senha: ");
+        p = r.nextLine();
     }
 
     public String getName() {
@@ -44,6 +52,8 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+        System.out.println("Digíte seu nome de usuário: ");
+        u = r.nextLine();
     }
  
 }
