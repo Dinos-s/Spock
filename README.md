@@ -1,0 +1,1 @@
+Só app de música;

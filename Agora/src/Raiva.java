@@ -44,11 +44,11 @@ public class Raiva extends javax.swing.JFrame {
         );
         jDquaseLayout.setVerticalGroup(
             jDquaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGap(0, 450, Short.MAX_VALUE)
         );
 
         getContentPane().add(jDquase);
-        jDquase.setBounds(0, 0, 680, 400);
+        jDquase.setBounds(0, 0, 680, 450);
 
         jMenu1.setText("+Songs");
         jMenu1.addActionListener(new java.awt.event.ActionListener() {
